@@ -9,13 +9,13 @@ function Footer() {
           <div className="lists">
             <ul className="list-items">
               <p>ABOUT</p>
-              <a href="#">Contact Us</a>
-              <a href="#">About Us</a>
-              <a href="#">Careers</a>
-              <a href="#">Flipkart Stories</a>
-              <a href="#">Press</a>
-              <a href="#">Flipkart Wholesale</a>
-              <a href="#">Corporate Information</a>
+              <a>Contact Us</a>
+              <a>About Us</a>
+              <a>Careers</a>
+              <a>Flipkart Stories</a>
+              <a>Press</a>
+              <a>Flipkart Wholesale</a>
+              <a>Corporate Information</a>
             </ul>
             <ul className="list-items">
               <p>HELP</p>

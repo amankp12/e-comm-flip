@@ -1,0 +1,153 @@
+/* nav.module.css */
+
+#nav {
+  background-color: #0758fc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+
+#nav article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#Logo, #Search, #Cart {
+  display: flex;
+  align-items: center;
+}
+
+#Logo {
+  flex: 1;
+}
+
+#Search {
+  flex: 2;
+  justify-content: center;
+}
+
+#Cart {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+#main {
+  padding: 20px;
+}
+
+#items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#items div {
+  text-align: center;
+  padding: 10px;
+}
+
+#items img {
+  max-width: 80px;
+  margin-bottom: 10px;
+}
+
+#items p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+#dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#dropbtn {
+  background-color: #fff;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  color: #0073e6;
+}
+
+#dropcontent {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  min-width: 160px;
+  z-index: 1;
+}
+
+#dropcontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#dropcontent a:hover {
+  background-color: #f1f1f1;
+}
+
+#dropdown:hover #dropcontent {
+  display: block;
+}
+
+#dropdown:hover #dropbtn {
+  color: #005bb5;
+}
+
+marquee {
+  margin: 20px 0;
+  background-color: #f8f8f8;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+marquee img {
+  margin-right: 20px;
+  max-height: 200px;
+}
+
+#best {
+  text-align: center;
+  margin: 40px 0;
+}
+
+#best p {
+  font-size: 24px;
+  color: #333;
+}
+
+#best button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#best button:hover {
+  background-color: #005bb5;
+}
+
+#EIMG {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+#EIMG img {
+  margin: 10px;
+  border-radius: 10px;
+  max-width: 150px;
+  transition: transform 0.3s;
+}
+
+#EIMG img:hover {
+  transform: scale(1.05);
+}

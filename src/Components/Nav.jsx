@@ -28,9 +28,9 @@ const Nav = () => {
           <div id={style.dropdown}>
             <button id={style.dropbtn}>Electronics</button>
             <div id={style.dropcontent}>
-              <a href="#">Laptops</a>
-              <a href="#">Watches</a>
-              <a href="#">Tablets</a>
+              <a href="#laptops">Laptops</a>
+              <a href="#watches">Watches</a>
+              <a href="#tablets">Tablets</a>
             </div>
           </div>
         </div>
@@ -43,8 +43,8 @@ const Nav = () => {
           <div id={style.dropdown}>
             <button id={style.dropbtn}>Fashion</button>
             <div id={style.dropcontent}>
-              <a href="#">Men</a>
-              <a href="#">Women</a>
+              <a href="#men">Men</a>
+              <a href="#women">Women</a>
             </div>
           </div>
         </div>
@@ -53,8 +53,8 @@ const Nav = () => {
           <div id={style.dropdown}>
             <button id={style.dropbtn}>Beauty</button>
             <div id={style.dropcontent}>
-              <a href="#">Baby Care</a>
-              <a href="#">Women Beauty Care</a>
+              <a href="#babycare">Baby Care</a>
+              <a href="#womenbeautycare">Women Beauty Care</a>
             </div>
           </div>
         </div>

@@ -19,28 +19,28 @@ function Footer() {
             </ul>
             <ul className="list-items">
               <p>HELP</p>
-              <a href="#">Payments</a>
-              <a href="#">Shiping</a>
-              <a href="#">Cancelation & Returns</a>
-              <a href="#">Flipkart Stories</a>
-              <a href="#">FAQ</a>
-              <a href="#">Report Infringement</a>
+              <a>Payments</a>
+              <a>Shiping</a>
+              <a>Cancelation & Returns</a>
+              <a>Flipkart Stories</a>
+              <a>FAQ</a>
+              <a>Report Infringement</a>
             </ul>
             <ul className="list-items">
               <p>CONSUMER POLICY</p>
-              <a href="#">Return Policy</a>
-              <a href="#">Term of Use</a>
-              <a href="#">Security</a>
-              <a href="#">Privacy</a>
-              <a href="#">Sitemap</a>
-              <a href="#">Grievance Redressal</a>
-              <a href="#">EPR Compliance</a>
+              <a>Return Policy</a>
+              <a>Term of Use</a>
+              <a>Security</a>
+              <a>Privacy</a>
+              <a>Sitemap</a>
+              <a>Grievance Redressal</a>
+              <a>EPR Compliance</a>
             </ul>
             <ul className="list-items">
               <p>SOCIAL</p>
-              <a href="#">Facebook</a>
-              <a href="#">Twitter</a>
-              <a href="#">YouTube</a>
+              <a>Twitter</a>
+              <a>YouTube</a>
+              <a>Facebook</a>
             </ul>
           </div>
           <div className="flipkart-address">
